@@ -14,7 +14,8 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import org.prezdev.notireminder.R;
-import org.prezdev.notireminder.notification.listener.NotificationTestOnClickListener;
+import org.prezdev.notireminder.test.listener.NotificationTestOnClickListener;
+import org.prezdev.notireminder.test.listener.WorkerButtonListener;
 
 public class GalleryFragment extends Fragment{
 
@@ -33,8 +34,10 @@ public class GalleryFragment extends Fragment{
         });
 
         Button notificationButton = root.findViewById(R.id.notificationButton);
+        Button workerTestButton = root.findViewById(R.id.workerTestButton);
 
         notificationButton.setOnClickListener(new NotificationTestOnClickListener(getContext()));
+        workerTestButton.setOnClickListener(new WorkerButtonListener(getContext()));
 
         return root;
     }

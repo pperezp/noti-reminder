@@ -1,22 +1,17 @@
-package org.prezdev.notireminder.notification.listener;
+package org.prezdev.notireminder.test.listener;
 
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
 import android.view.View;
 
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
-import androidx.vectordrawable.graphics.drawable.VectorDrawableCompat;
 
 import org.prezdev.notireminder.MainActivity;
 import org.prezdev.notireminder.R;
-import org.prezdev.notireminder.ui.gallery.GalleryFragment;
-import org.prezdev.notireminder.ui.slideshow.SlideshowFragment;
 
 // https://developer.android.com/training/notify-user/build-notification#java
 // https://developer.android.com/guide/topics/ui/notifiers/notifications#Templates
