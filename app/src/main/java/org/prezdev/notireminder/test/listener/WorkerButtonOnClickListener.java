@@ -9,11 +9,11 @@ import androidx.work.WorkRequest;
 
 import java.util.concurrent.TimeUnit;
 
-public class WorkerButtonListener implements View.OnClickListener {
+public class WorkerButtonOnClickListener implements View.OnClickListener {
 
     private Context context;
 
-    public WorkerButtonListener(Context context) {
+    public WorkerButtonOnClickListener(Context context) {
         this.context = context;
     }
 

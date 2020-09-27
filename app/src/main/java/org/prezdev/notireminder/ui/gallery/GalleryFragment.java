@@ -14,8 +14,9 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import org.prezdev.notireminder.R;
+import org.prezdev.notireminder.test.listener.DateTimePickerOnClickListener;
 import org.prezdev.notireminder.test.listener.NotificationTestOnClickListener;
-import org.prezdev.notireminder.test.listener.WorkerButtonListener;
+import org.prezdev.notireminder.test.listener.WorkerButtonOnClickListener;
 
 public class GalleryFragment extends Fragment{
 
@@ -35,9 +36,11 @@ public class GalleryFragment extends Fragment{
 
         Button notificationButton = root.findViewById(R.id.notificationButton);
         Button workerTestButton = root.findViewById(R.id.workerTestButton);
+        Button dateTimePicketButton = root.findViewById(R.id.datetimePicketButton);
 
         notificationButton.setOnClickListener(new NotificationTestOnClickListener(getContext()));
-        workerTestButton.setOnClickListener(new WorkerButtonListener(getContext()));
+        workerTestButton.setOnClickListener(new WorkerButtonOnClickListener(getContext()));
+        dateTimePicketButton.setOnClickListener(new DateTimePickerOnClickListener(getContext()));
 
         return root;
     }
