@@ -1,4 +1,4 @@
-package org.prezdev.notireminder.test.listener;
+package org.prezdev.notireminder.test;
 
 import android.app.PendingIntent;
 import android.content.Context;
@@ -12,6 +12,7 @@ import androidx.core.app.NotificationManagerCompat;
 
 import org.prezdev.notireminder.MainActivity;
 import org.prezdev.notireminder.R;
+import org.prezdev.notireminder.notification.channel.Channel;
 
 // https://developer.android.com/training/notify-user/build-notification#java
 // https://developer.android.com/guide/topics/ui/notifiers/notifications#Templates
@@ -60,7 +61,7 @@ public class NotificationTestOnClickListener implements View.OnClickListener {
                 */
 
         NotificationCompat.Builder builder = (NotificationCompat.Builder)
-            new NotificationCompat.Builder(context, "channel1")
+            new NotificationCompat.Builder(context, Channel.CHANNEL_1.getId())
                 .setSmallIcon(android.R.drawable.ic_lock_idle_alarm)
                 .setLargeIcon(bitmap)
                 .setContentTitle("Título de la notificación")

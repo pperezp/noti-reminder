@@ -1,4 +1,4 @@
-package org.prezdev.notireminder.test.listener;
+package org.prezdev.notireminder.test;
 
 import android.app.PendingIntent;
 import android.content.Context;
@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.Log;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.core.app.NotificationCompat;

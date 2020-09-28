@@ -14,9 +14,9 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import org.prezdev.notireminder.R;
-import org.prezdev.notireminder.test.listener.DateTimePickerOnClickListener;
-import org.prezdev.notireminder.test.listener.NotificationTestOnClickListener;
-import org.prezdev.notireminder.test.listener.WorkerButtonOnClickListener;
+import org.prezdev.notireminder.test.DateTimePickerOnClickListener;
+import org.prezdev.notireminder.test.NotificationTestOnClickListener;
+import org.prezdev.notireminder.test.WorkerButtonOnClickListener;
 
 public class GalleryFragment extends Fragment{
 

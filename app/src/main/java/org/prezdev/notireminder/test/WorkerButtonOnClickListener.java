@@ -1,4 +1,4 @@
-package org.prezdev.notireminder.test.listener;
+package org.prezdev.notireminder.test;
 
 import android.content.Context;
 import android.view.View;

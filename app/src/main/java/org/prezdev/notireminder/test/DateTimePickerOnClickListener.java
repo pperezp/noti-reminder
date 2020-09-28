@@ -1,4 +1,4 @@
-package org.prezdev.notireminder.test.listener;
+package org.prezdev.notireminder.test;
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
