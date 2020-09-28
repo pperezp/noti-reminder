@@ -1,4 +1,4 @@
-package org.prezdev.notireminder.notification.channel;
+package org.prezdev.notireminder.notification.channel.model;
 
 public enum Channel {
     CHANNEL_1("channelId1", "Reminder's channel 1", "Reminder's channel description 1"),

@@ -1,4 +1,4 @@
-package org.prezdev.notireminder.notification.channel;
+package org.prezdev.notireminder.notification.channel.service;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -7,6 +7,7 @@ import android.os.Build;
 
 import androidx.annotation.RequiresApi;
 
+import org.prezdev.notireminder.notification.channel.model.Channel;
 import org.prezdev.notireminder.share.service.GenericService;
 
 import java.util.ArrayList;

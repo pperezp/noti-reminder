@@ -5,7 +5,8 @@ import android.os.Build;
 
 import androidx.annotation.RequiresApi;
 
-import org.prezdev.notireminder.notification.channel.NotificationChannelServiceImpl;
+import org.prezdev.notireminder.notification.channel.service.NotificationChannelServiceImpl;
+import org.prezdev.notireminder.notification.service.NotificationServiceImpl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,6 +45,8 @@ public class ServiceFactory {
     @RequiresApi(api = Build.VERSION_CODES.O)
     private void createServices() {
         services = new ArrayList<>();
+
         services.add(new NotificationChannelServiceImpl(this.context));
+        services.add(new NotificationServiceImpl(this.context));
     }
 }

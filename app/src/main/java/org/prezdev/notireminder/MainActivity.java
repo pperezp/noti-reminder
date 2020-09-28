@@ -1,7 +1,5 @@
 package org.prezdev.notireminder;
 
-import android.app.NotificationChannel;
-import android.app.NotificationManager;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -21,8 +19,6 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import org.prezdev.notireminder.notification.channel.NotificationChannelService;
-import org.prezdev.notireminder.share.service.GenericService;
 import org.prezdev.notireminder.share.service.ServiceFactory;
 
 public class MainActivity extends AppCompatActivity {

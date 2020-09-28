@@ -1,4 +1,4 @@
-package org.prezdev.notireminder.notification.channel;
+package org.prezdev.notireminder.notification.channel.service;
 
 import android.app.NotificationChannel;
 
